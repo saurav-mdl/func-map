@@ -1,4 +1,4 @@
-let doubleAll = require('./doubleAll');
+import doubleAll from './doubleAll';
 
 function compareArrays(firstArray, secondArray) {
     if (firstArray.length !== secondArray.length)
