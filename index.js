@@ -15,3 +15,4 @@ console.log('Test compareArray with two unequal arrays: ', compareArrays([1, 2, 
 
 
 console.log('Test for doubling array elements containing only positive integers:', compareArrays(doubleAll([1, 2, 3]), [2, 4, 6]) === true);
+console.log('Test for arrays with both positive and negative numbers:', compareArrays(doubleAll([1, 2.0, -3, -44]), [2, 4.0, -6, -88]) === true);
